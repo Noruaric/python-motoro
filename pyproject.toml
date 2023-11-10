@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "motoro"
+requires-python = ">=3.8"
+version = "1.2.1"
+authors = [
+  { name="Noruaric", email="" },
+]
+description = "A 'engine' for 2D game in pygame"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pygame >= 2.1.2, <3',
+]
+[project.urls]
+"Homepage" = "https://github.com/Noruaric/project-trophy-motoro-package"
+"Bug Tracker" = "https://github.com/Noruaric/project-trophy-motoro-package/issues"
